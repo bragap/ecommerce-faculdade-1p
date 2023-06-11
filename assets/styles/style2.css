@@ -1,0 +1,122 @@
+.card img {
+    width: 200px;
+    height: 200px;
+}
+.card-img {
+    align-items: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header img {
+    width: 250px;
+}
+header ul li {
+    display: inline-flex;
+    margin: 5px;
+    flex-wrap: wrap;
+    width: 150px;
+}
+header {
+    width: calc(100% - 20px);
+    background-color: rgba(141, 141, 141, 0.849);
+    height: 117px;
+    display: flex;
+    padding:10px;
+    margin:10px;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    align-content: center;
+}
+nav {
+    width: calc(100% - 20px);
+    background-color:  rgba(141, 141, 141, 0.849);
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 5px;
+}
+main {
+    width: calc(100% - 10px);
+    display: flex;
+    justify-content: space-between;
+}
+
+#tela {
+    width: calc(100%);
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav .formulario{
+    background-color: rgb(161, 161, 161, 0.849);
+    width: calc(100% - 10px);
+    margin: 10px;
+    padding: 5px;
+}
+.card{
+    border: 2px solid black;
+    display: inline-flex;
+    width: calc(30%);
+    margin:10px;
+    padding:10px;
+}
+.card-body{
+    display: block;
+    width: calc(100% - 10px);
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    width: (100% - 20px);
+    margin: 15px;
+    padding: 10px;
+    height: 50px;
+    justify-content: center;
+    background-color: rgba(141, 141, 141, 0.849);
+    align-items: center;
+}
+a {
+    color: black;
+}
+
+@media screen and (max-width:609px) {
+    .card {
+        display: block;
+        width: calc(100% - 30px);
+    }
+    .card img {
+        width: calc(50% - 10px);
+    }
+    header {
+        height: calc(100%);
+    }
+    nav .formulario {
+        width: calc(100%);
+    }
+    footer {
+        height: calc(100%);
+    }
+    
+}
+@media screen and (min-width:610px) and (max-width:1020px){
+    .card{
+        width: calc(80% - 10px);
+        
+    }
+    .card img {
+        width: calc(50% - 10px);
+    }
+    header {
+        height: calc(100%);
+    }
+    nav .formulario {
+        width: calc(100%);
+    }
+    footer {
+        height: calc(100%);
+    }
+}
