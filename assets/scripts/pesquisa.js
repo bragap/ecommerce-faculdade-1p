@@ -5,7 +5,7 @@ if(searchParams == ""){
     alert("Insira um produto válido");
 }else {
 
-fetch(`http://diwserver.vps.webdock.cloud:8765/products/search?query=${searchParams}`)
+fetch(`https://diwserver.vps.webdock.cloud:8765/products/search?query=${searchParams}`)
         .then(res => res.json())
         .then(products => {
             let tela = document.getElementById('tela')
