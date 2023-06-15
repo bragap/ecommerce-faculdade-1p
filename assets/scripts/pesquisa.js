@@ -18,7 +18,7 @@ fetch(`http://diwserver.vps.webdock.cloud:8765/products/search?query=${searchPar
             <p class="card-text text-center  bg-body-secondary rounded">Category: ${product.category}</p>
             <p class="card-text text-center  bg-body-secondary rounded">Price: ${product.price}</p>
             <p class="card-text text-center  bg-body-secondary rounded">Rating: ${product.rating.rate}</p> 
-            <a type="button" class="btn btn-secondary rounded mx-auto d-block text-dark" href="http://127.0.0.1:5501/detalhes.html?id=${product.id}">Details</a>
+            <a type="button" class="btn btn-secondary rounded mx-auto d-block text-dark" href="https://pedrohbragac.github.io/ecomerce/detalhes.html?id=${product.id}">Details</a>
 
           </div>
         </div>
