@@ -13,7 +13,7 @@ window.addEventListener("load",function(){
       <h5 class="card-title text-center bg-dark-subtle rounded">${produto.title}</h5>
       <p class="card-text text-center bg-body-secondary rounded">Category: ${produto.category}</p>
       <p class="card-text text-center bg-body-secondary rounded">Price: ${produto.price}</p>
-      <a href="http://127.0.0.1:5501/detalhes.html?id=${produto.id}" class=" btn btn-secondary rounded mx-auto d-block text-dark" ">Details</a>
+      <a href="https://pedrohbragac.github.io/ecomerce/id=${produto.id}" class=" btn btn-secondary rounded mx-auto d-block text-dark" ">Details</a>
     </div>
   </div>`
         }
